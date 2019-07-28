@@ -1,5 +1,5 @@
 <?php
-include_once('connetion.php');
+include_once('../connetion.php');
 $hash       = $_POST['hash']; 
 $status     = $_POST['status'];   
 $query= $conn->query("UPDATE paymentpending SET status='$status' WHERE hashednumber = '$hash'");           
