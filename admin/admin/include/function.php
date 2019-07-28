@@ -1,10 +1,10 @@
 <?php
 include_once('../../connetion.php');
-function smsApi($phone,$sendername,$message) {
+function smsApi($phone,$named,$message) {
     echo $phone,'<br>';
-    echo $sendername,'<br>';
+    echo $named,'<br>';
     echo $message,'<br>';
-    $url = "http://rslr.connectbind.com:8080/bulksms/bulksms?username=infk-kiza&password=smsap@20&type=0&dlr=1&destination=250$phone&source=$sendername&message=".urlencode($message);
+    $url = "http://rslr.connectbind.com:8080/bulksms/bulksms?username=infk-kiza&password=smsap@20&type=0&dlr=1&destination=250$phone&source=$named&message=".urlencode($message);
 
 	$ch = curl_init();
 	curl_setopt_array($ch, [

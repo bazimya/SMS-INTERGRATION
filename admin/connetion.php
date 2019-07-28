@@ -1,6 +1,6 @@
 <?php
 
-$conn=mysqli_connect("localhost","ramuka","CEg*UpymRzU28DWK","YSMS");
+$conn=mysqli_connect("localhost","ramuka","CEg*UpymRzU28DWK","ysms");
 
 
 // Check connection
