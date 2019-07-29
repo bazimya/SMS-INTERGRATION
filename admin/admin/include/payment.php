@@ -5,6 +5,7 @@ include_once('function.php');
 if(isset($_POST['submit'])){
     include_once('../../connetion.php');
     $userId = $_SESSION['userId'];
+    echo  $userId;
     $number = mysqli_real_escape_string($conn, $_POST['number']);
     $monay = mysqli_real_escape_string($conn, $_POST['amount']);
 

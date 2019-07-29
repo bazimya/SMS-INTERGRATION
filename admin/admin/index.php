@@ -9,7 +9,8 @@ include_once('../admin/pages2/head.php');
 <div class="wrapper">
 <!-- ushaka kubona to  heade harimo na log out reba muri iyi link kand ctr ukirike kuri link -->
  <?php 
- include_once('../admin/pages2/topheader.php')
+ include_once('../admin/pages2/topheader.php');
+
  ?>
  <!-- irangirira ahangaha -->
   <!-- Left side column. contains the logo and sidebar -->
