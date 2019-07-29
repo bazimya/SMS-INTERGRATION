@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
     $query = $conn->query("INSERT INTO  paymentpending(userId, phone, amount,hashednumber) VALUES ('$userId', '$number', '$monay','$hash') ") or die($conn->error);
 
    
-   
+   var_dump($query);
 
 
 }
